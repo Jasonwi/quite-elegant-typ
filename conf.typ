@@ -27,10 +27,10 @@
 
   // 字体
   set text(lang: "zh", region: "cn", size: 10pt)
-  set text(font: ("Times New Roman", "FZShuSong-Z01S"))
+  set text(font: ("Times New Roman", "FandolSong"))
   show emph: set text(font: ("Times New Roman", "FZKai-Z03S"))
-  show strong: set text(font: ("Times New Roman", "FZHei-B01S"))
-  show text.where(weight: "bold"): set text(font: ("Times New Roman", "FZHei-B01S"))
+  show strong: set text(font: ("Times New Roman", "SimHei"))
+  show text.where(weight: "bold"): set text(font: ("Times New Roman", "HYZhongHei"))
 
   // 标题
   show: heading-style.with(color-themes.structure)
