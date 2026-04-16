@@ -1,6 +1,7 @@
 #import "lib.typ": *
 
 #show raw.where(block: true): it => {
+  set text(font: ("Fira Code", "Source Han Sans"))
   set par(justify: false)
   block(
     fill: luma(245),
